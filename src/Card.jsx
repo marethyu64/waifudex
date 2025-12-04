@@ -9,7 +9,6 @@ function Card({name = "Name", desc = "Description", image = null}){
             <p className ="card-text">{desc}</p>
         </div>
     );
-    
 }
 
 Card.propTypes = {

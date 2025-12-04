@@ -13,8 +13,11 @@ function App() {
   return(
     <>
       <Header/>
-      <input type="text" id="waifuName" placeholder="Enter waifu name"/>
-      <button onClick={() => fetchData()}>Click Me!</button>
+      <div className ="search-container">
+        <input type="text" id="waifuName" placeholder="Enter waifu name"/>
+        <button onClick={() => fetchData()}>Search</button>
+      </div>
+
       <hr/>
       <Card name ={waifuName} desc ={waifuDesc} image={waifuImage}/>
       <Footer/>

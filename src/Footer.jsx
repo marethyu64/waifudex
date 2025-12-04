@@ -3,7 +3,7 @@ function Footer(){
 
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} Your website name</p>
+            <p>&copy; {new Date().getFullYear()} https://marethyu64.github.io/waifudex/</p>
         </footer>
     );
 }
